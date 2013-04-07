@@ -23,7 +23,9 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=-1
+current_page=0
+FILE_NAME_0=54;C;0;16;1;1;0;%2Fhome%2Frobert%2FSDL_learning%2FEngine.h;0;4
+FILE_NAME_1=1657;C++;0;16;1;1;0;%2Fhome%2Frobert%2FSDL_learning%2FEngine.cpp;0;4
 
 [VTE]
 last_dir=/home/robert/SDL_learning
@@ -35,4 +37,10 @@ C++FT_00_WD=
 C++FT_01_LB=_Build
 C++FT_01_CM=g++ -Wall -o "%e" "%f" `sdl-config --cflags --libs`
 C++FT_01_WD=
-filetypes=C++;
+filetypes=C++;C;
+CFT_00_LB=_Compile
+CFT_00_CM=g++ -Wall -c "%f" `sdl-config --cflags --libs`
+CFT_00_WD=
+CFT_01_LB=_Build
+CFT_01_CM=g++ -Wall -o "%e" "%f" `sdl-config --cflags --libs`
+CFT_01_WD=
